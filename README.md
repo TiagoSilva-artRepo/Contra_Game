@@ -1,2 +1,2 @@
 # Contra_Game
-Mini shooting game developed in c#, using MonoGame framework.
+Mini shooting game developed in C#, using MonoGame framework.
