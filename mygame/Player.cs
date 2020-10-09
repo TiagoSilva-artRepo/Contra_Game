@@ -30,10 +30,10 @@ namespace contra
 
             currentKey = Keyboard.GetState();
 
-            if (currentKey.IsKeyDown(Keys.Left))
+            if (currentKey.IsKeyDown(Keys.Left) && this.Position.X > 0)
                 Position = new Vector2(Position.X - 3f, Position.Y);
 
-            if (currentKey.IsKeyDown(Keys.Right))
+            if (currentKey.IsKeyDown(Keys.Right) && this.Position.X < ContraGame.ScreenWidth + ContraGame.ScreenWidth/2 - texture.Width/2)
                 Position = new Vector2(Position.X + 3f, Position.Y);
 
             if (currentKey.IsKeyDown(Keys.Space) && previousKey.IsKeyUp(Keys.Space))
