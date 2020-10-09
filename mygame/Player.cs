@@ -7,7 +7,7 @@ using System.Net.Mime;
 using System.Reflection.Metadata.Ecma335;
 using System.Text;
 
-namespace mygame
+namespace contra
 {
     class Player : Sprite
     {
@@ -26,7 +26,7 @@ namespace mygame
             Position += speed;
 
             previousKey = currentKey;
-            bool right;
+            bool right = true;
 
             currentKey = Keyboard.GetState();
 

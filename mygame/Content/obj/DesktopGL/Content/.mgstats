@@ -1,7 +1,7 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
-"C:/Users/Tiago/Documents/aspnet/mygame/mygame/mygame/Content/background.png","C:/Users/Tiago/Documents/aspnet/mygame/mygame/mygame/Content/bin/DesktopGL/Content/background.xnb","TextureProcessor","Texture2DContent",175834,4187905,1.0414706
-"C:/Users/Tiago/Documents/aspnet/mygame/mygame/mygame/Content/bullet.png","C:/Users/Tiago/Documents/aspnet/mygame/mygame/mygame/Content/bin/DesktopGL/Content/bullet.xnb","TextureProcessor","Texture2DContent",6197,485,0.190174
-"C:/Users/Tiago/Documents/aspnet/mygame/mygame/mygame/Content/ct.png","C:/Users/Tiago/Documents/aspnet/mygame/mygame/mygame/Content/bin/DesktopGL/Content/ct.xnb","TextureProcessor","Texture2DContent",6329,40085,0.1988447
-"C:/Users/Tiago/Documents/aspnet/mygame/mygame/mygame/Content/player/left.png","C:/Users/Tiago/Documents/aspnet/mygame/mygame/mygame/Content/bin/DesktopGL/Content/player/left.xnb","TextureProcessor","Texture2DContent",706,7285,0.8862548
-"C:/Users/Tiago/Documents/aspnet/mygame/mygame/mygame/Content/player/right.png","C:/Users/Tiago/Documents/aspnet/mygame/mygame/mygame/Content/bin/DesktopGL/Content/player/right.xnb","TextureProcessor","Texture2DContent",703,7285,0.0029444
-"C:/Users/Tiago/Documents/aspnet/mygame/mygame/mygame/Content/swat.png","C:/Users/Tiago/Documents/aspnet/mygame/mygame/mygame/Content/bin/DesktopGL/Content/swat.xnb","TextureProcessor","Texture2DContent",14807,40085,0.2091528
+"C:/Users/Tiago/Documents/Contra_Game/mygame/Content/background.png","C:/Users/Tiago/Documents/Contra_Game/mygame/Content/bin/DesktopGL/Content/background.xnb","TextureProcessor","Texture2DContent",175834,4187905,1.4203717
+"C:/Users/Tiago/Documents/Contra_Game/mygame/Content/bullet.png","C:/Users/Tiago/Documents/Contra_Game/mygame/Content/bin/DesktopGL/Content/bullet.xnb","TextureProcessor","Texture2DContent",6197,485,0.0699934
+"C:/Users/Tiago/Documents/Contra_Game/mygame/Content/ct.png","C:/Users/Tiago/Documents/Contra_Game/mygame/Content/bin/DesktopGL/Content/ct.xnb","TextureProcessor","Texture2DContent",6329,40085,0.0101062
+"C:/Users/Tiago/Documents/Contra_Game/mygame/Content/player/left.png","C:/Users/Tiago/Documents/Contra_Game/mygame/Content/bin/DesktopGL/Content/player/left.xnb","TextureProcessor","Texture2DContent",706,7285,0.006956
+"C:/Users/Tiago/Documents/Contra_Game/mygame/Content/player/right.png","C:/Users/Tiago/Documents/Contra_Game/mygame/Content/bin/DesktopGL/Content/player/right.xnb","TextureProcessor","Texture2DContent",703,7285,0.0032392
+"C:/Users/Tiago/Documents/Contra_Game/mygame/Content/swat.png","C:/Users/Tiago/Documents/Contra_Game/mygame/Content/bin/DesktopGL/Content/swat.xnb","TextureProcessor","Texture2DContent",14807,40085,0.0055072

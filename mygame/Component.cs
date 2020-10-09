@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace mygame
+namespace contra
 {
     public abstract class Component
     {

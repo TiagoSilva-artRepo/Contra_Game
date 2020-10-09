@@ -3,9 +3,10 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using System.Collections.Generic;
 
-namespace mygame
+namespace contra
+
 {
-    public class Game1 : Game
+    public class ContraGame : Game
     {
 
         private List<Sprite> components;
@@ -21,7 +22,7 @@ namespace mygame
         private Player player;
         private Enemy enemy;
 
-        public Game1()
+        public ContraGame()
         {
             _graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";

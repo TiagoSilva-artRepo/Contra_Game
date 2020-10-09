@@ -180,11 +180,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tiago\\Documents\\aspnet\\mygame\\mygame\\mygame\\mygame.csproj",
-      "projectName": "mygame",
-      "projectPath": "C:\\Users\\Tiago\\Documents\\aspnet\\mygame\\mygame\\mygame\\mygame.csproj",
+      "projectUniqueName": "C:\\Users\\Tiago\\Documents\\Contra_Game\\mygame\\contra.csproj",
+      "projectName": "contra",
+      "projectPath": "C:\\Users\\Tiago\\Documents\\Contra_Game\\mygame\\contra.csproj",
       "packagesPath": "C:\\Users\\Tiago\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tiago\\Documents\\aspnet\\mygame\\mygame\\mygame\\obj\\",
+      "outputPath": "C:\\Users\\Tiago\\Documents\\Contra_Game\\mygame\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

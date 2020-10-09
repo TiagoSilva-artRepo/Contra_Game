@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace mygame
+namespace contra
 {
     public class Camera
     {
@@ -11,14 +11,14 @@ namespace mygame
 
         public void Follow(Sprite target)
         {
-            if (target.Position.X < (Game1.ScreenWidth + target.Rectangle.Width) && 
-                (target.Position.X + target.Rectangle.Width / 2) > (Game1.ScreenWidth / 2))
+            if (target.Position.X < (ContraGame.ScreenWidth + target.Rectangle.Width) && 
+                (target.Position.X + target.Rectangle.Width / 2) > (ContraGame.ScreenWidth / 2))
             {
                  Transform = Matrix.CreateTranslation(
                     -target.Position.X - (target.Rectangle.Width / 2),
                     0,          
                     0) * Matrix.CreateTranslation(
-                        Game1.ScreenWidth / 2,
+                        ContraGame.ScreenWidth / 2,
                         0,
                         0);
             }

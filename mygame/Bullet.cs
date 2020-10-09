@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Net.Mime;
 using System.Text;
 
-namespace mygame
+namespace contra
 {
     public class Bullet : Sprite, ICloneable
     {

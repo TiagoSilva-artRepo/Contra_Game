@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace mygame
+namespace contra
 {
     class Enemy : Sprite
     {
@@ -31,7 +31,8 @@ namespace mygame
         private void Shoot(List<Sprite> sprites)
         {
             var bullet = Bullet.Clone() as Bullet;
-            bullet.Position = new Vector2(this.Position.X + 90, this.Position.Y + 32);
+            bullet.Position = new Vector2(this.Position.X, this.Position.Y + 32);
+            bullet.DirectionRight = false;
             sprites.Add(bullet);
             timeSinceLastShot = 0f;
         }

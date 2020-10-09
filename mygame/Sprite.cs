@@ -7,7 +7,7 @@ using System.Dynamic;
 using System.Linq;
 using System.Text;
 
-namespace mygame
+namespace contra
 {
     public class Sprite : Component
     {

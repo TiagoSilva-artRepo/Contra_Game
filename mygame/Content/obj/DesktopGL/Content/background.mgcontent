@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/Tiago/Documents/aspnet/mygame/mygame/mygame/Content/background.png</SourceFile>
+  <SourceFile>C:/Users/Tiago/Documents/Contra_Game/mygame/Content/background.png</SourceFile>
   <SourceTime>2020-09-25T17:11:23.9372318+01:00</SourceTime>
-  <DestFile>C:/Users/Tiago/Documents/aspnet/mygame/mygame/mygame/Content/bin/DesktopGL/Content/background.xnb</DestFile>
-  <DestTime>2020-09-25T17:21:03.4397595+01:00</DestTime>
+  <DestFile>C:/Users/Tiago/Documents/Contra_Game/mygame/Content/bin/DesktopGL/Content/background.xnb</DestFile>
+  <DestTime>2020-10-09T11:50:15.5125079+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2020-08-10T16:17:54+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
