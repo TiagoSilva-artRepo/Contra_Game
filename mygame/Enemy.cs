@@ -32,7 +32,7 @@ namespace contra
         {
             var bullet = Bullet.Clone() as Bullet;
             bullet.Position = new Vector2(this.Position.X, this.Position.Y + 32);
-            bullet.DirectionRight = false;
+            bullet.GoingRight = false;
             sprites.Add(bullet);
             timeSinceLastShot = 0f;
         }

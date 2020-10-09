@@ -28,3 +28,5 @@ C:\Users\Tiago\Documents\Contra_Game\mygame\obj\Debug\netcoreapp3.1\contra.cspro
 C:\Users\Tiago\Documents\Contra_Game\mygame\obj\Debug\netcoreapp3.1\contra.dll
 C:\Users\Tiago\Documents\Contra_Game\mygame\obj\Debug\netcoreapp3.1\contra.pdb
 C:\Users\Tiago\Documents\Contra_Game\mygame\obj\Debug\netcoreapp3.1\contra.genruntimeconfig.cache
+C:\Users\Tiago\Documents\Contra_Game\mygame\obj\Debug\netcoreapp3.1\contra.csprojAssemblyReference.cache
+C:\Users\Tiago\Documents\Contra_Game\mygame\bin\Debug\netcoreapp3.1\Content\PlayerHealth.xnb

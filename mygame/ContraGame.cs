@@ -2,6 +2,7 @@
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using System.Collections.Generic;
+using System.Diagnostics;
 
 namespace contra
 
@@ -12,6 +13,9 @@ namespace contra
         private List<Sprite> components;
         private Sprite background;
         private Camera _camera;
+
+        private CollisionDetector collisionDetector;
+        private SpriteFont spriteFont;
 
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
@@ -44,6 +48,8 @@ namespace contra
         protected override void LoadContent()
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
+            collisionDetector = new CollisionDetector();
+            spriteFont = Content.Load<SpriteFont>("PlayerHealth");
 
 
             // TODO: use this.Content to load your game content here
@@ -60,6 +66,7 @@ namespace contra
                 player,
                 player.Bullet,
                 enemy,
+                //enemy.Bullet,
             };
 
         }
@@ -70,14 +77,24 @@ namespace contra
                 Exit();
 
             // TODO: Add your update logic here
-            foreach(var component in components.ToArray())
+            foreach (var component in components.ToArray())
             {
                 component.Update(gameTime, components);
                 _camera.Follow(player);
+                
+                if (component is Bullet)
+                {
+                    if (collisionDetector.PlayerInjured(player, component))
+                    {
+                        player.decreaseHealth();
+                        components.Remove(component);
+                    }
+                }
+
                 base.Update(gameTime);
             }
 
-          
+
         }
 
         protected override void Draw(GameTime gameTime)
@@ -91,6 +108,8 @@ namespace contra
             {
                 component.Draw(gameTime, _spriteBatch);
             }
+
+            _spriteBatch.DrawString(spriteFont, "Health:" + player.Health, new Vector2(50, 10), Color.Black);
             _spriteBatch.End();
 
             base.Draw(gameTime);

@@ -9,10 +9,12 @@ namespace contra
 {
     public class Bullet : Sprite, ICloneable
     {
-        public bool DirectionRight { get; set; }
+        public bool GoingRight { get; set; }
+        private int damage;
         public Bullet(Texture2D texture, Vector2 position) : base(texture, position)
         {
-            this.DirectionRight = true;
+            this.GoingRight = true;
+            this.damage = 10;
         }
 
         public object Clone()
@@ -22,7 +24,7 @@ namespace contra
 
         public override void Update(GameTime gameTime, List<Sprite> sprites)
         {
-            if (DirectionRight==false)
+            if (GoingRight==false)
             {
                 Position = new Vector2(Position.X - 7f, Position.Y);
                 return;

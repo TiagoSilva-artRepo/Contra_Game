@@ -7,6 +7,7 @@
     <File>C:/Users/Tiago/Documents/Contra_Game/mygame/Content/background.png</File>
     <File>C:/Users/Tiago/Documents/Contra_Game/mygame/Content/bullet.png</File>
     <File>C:/Users/Tiago/Documents/Contra_Game/mygame/Content/ct.png</File>
+    <File>C:/Users/Tiago/Documents/Contra_Game/mygame/Content/File.spritefont</File>
     <File>C:/Users/Tiago/Documents/Contra_Game/mygame/Content/player/left.png</File>
     <File>C:/Users/Tiago/Documents/Contra_Game/mygame/Content/player/right.png</File>
     <File>C:/Users/Tiago/Documents/Contra_Game/mygame/Content/swat.png</File>
@@ -15,6 +16,7 @@
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
+    <File>PlayerHealth.spritefont</File>
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

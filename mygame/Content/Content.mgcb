@@ -49,6 +49,13 @@
 /processorParam:TextureFormat=Color
 /build:ct.png
 
+#begin File.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:File.spritefont;PlayerHealth.spritefont
+
 #begin player/left.png
 /importer:TextureImporter
 /processor:TextureProcessor

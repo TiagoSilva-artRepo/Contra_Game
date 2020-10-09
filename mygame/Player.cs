@@ -15,10 +15,12 @@ namespace contra
         private Vector2 speed;
         private bool hasJumped;
         public Bullet Bullet { get; set; }
+        public int Health { get; set; }
 
         public Player(Texture2D texture, Vector2 position) : base(texture, position)
         {
             this.hasJumped = true;
+            this.Health = 100;
         }
 
         public override void Update(GameTime gameTime, List<Sprite> sprites)
@@ -26,7 +28,7 @@ namespace contra
             Position += speed;
 
             previousKey = currentKey;
-            bool right = true;
+            bool goingRight = true;
 
             currentKey = Keyboard.GetState();
 
@@ -38,7 +40,7 @@ namespace contra
 
             if (currentKey.IsKeyDown(Keys.Space) && previousKey.IsKeyUp(Keys.Space))
 
-                Shoot(sprites, right);
+                Shoot(sprites, goingRight);
 
             if (currentKey.IsKeyDown(Keys.Up) && hasJumped == false)
             {
@@ -66,15 +68,20 @@ namespace contra
 
         }
 
-        private void Shoot(List<Sprite> sprites, bool directionRight)
+        private void Shoot(List<Sprite> sprites, bool goingRight)
         {
             var bullet = Bullet.Clone() as Bullet;
             bullet.Position = new Vector2(this.Position.X + 90, this.Position.Y + 32);
-            if(!directionRight)
+            if(!goingRight)
             {
-                bullet.DirectionRight = false;
+                bullet.GoingRight = false;
             }
             sprites.Add(bullet);
+        }
+
+        public void decreaseHealth()
+        {
+            Health -= 10;
         }
             
     }
