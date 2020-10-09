@@ -1,0 +1,7 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/Tiago/Documents/aspnet/mygame/mygame/mygame/Content/background.png","C:/Users/Tiago/Documents/aspnet/mygame/mygame/mygame/Content/bin/DesktopGL/background.xnb","TextureProcessor","Texture2DContent",175834,4187905,0.5389057
+"C:/Users/Tiago/Documents/aspnet/mygame/mygame/mygame/Content/bullet.png","C:/Users/Tiago/Documents/aspnet/mygame/mygame/mygame/Content/bin/DesktopGL/bullet.xnb","TextureProcessor","Texture2DContent",6197,485,0.0106841
+"C:/Users/Tiago/Documents/aspnet/mygame/mygame/mygame/Content/ct.png","C:/Users/Tiago/Documents/aspnet/mygame/mygame/mygame/Content/bin/DesktopGL/ct.xnb","TextureProcessor","Texture2DContent",6329,40085,0.0379259
+"C:/Users/Tiago/Documents/aspnet/mygame/mygame/mygame/Content/player/ct.png","C:/Users/Tiago/Documents/aspnet/mygame/mygame/mygame/Content/bin/DesktopGL/player/ct.xnb","TextureProcessor","Texture2DContent",6329,40085,0.0477036
+"C:/Users/Tiago/Documents/aspnet/mygame/mygame/mygame/Content/player/swat.png","C:/Users/Tiago/Documents/aspnet/mygame/mygame/mygame/Content/bin/DesktopGL/player/swat.xnb","TextureProcessor","Texture2DContent",14807,40085,0.0244209
+"C:/Users/Tiago/Documents/aspnet/mygame/mygame/mygame/Content/swat.png","C:/Users/Tiago/Documents/aspnet/mygame/mygame/mygame/Content/bin/DesktopGL/swat.xnb","TextureProcessor","Texture2DContent",14807,40085,0.0283105

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "kMYpStlk+8XDhrZl6fVsTetS0jtN8U2U3raxKm5xoPSL/VG6BoaLMLjRqJOO0dUaCUnXBBI1Kva8tKPJxCB1gw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Tiago\\Documents\\aspnet\\mygame\\mygame\\mygame\\mygame.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Tiago\\.nuget\\packages\\monogame.content.builder.task\\3.8.0.1641\\monogame.content.builder.task.3.8.0.1641.nupkg.sha512",
+    "C:\\Users\\Tiago\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.0.1641\\monogame.framework.desktopgl.3.8.0.1641.nupkg.sha512"
+  ],
+  "logs": []
+}
